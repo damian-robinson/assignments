@@ -1,0 +1,92 @@
+------------
+REQUIREMENTS
+------------
+
+Requirement 1
+-------------
+The header should include:
+- the client logo
+- a webpage title
+- a functional navigation bar
+
+The footer should include
+- a subscribe-to-newsletter feature
+- social media links
+- navigation links to other webpages
+
+The Homepage should include:
+- Client highlights
+- Shopping promos
+- Product/item images
+- Shopping perks
+- Categories of products
+
+The Gallery page should include:
+- A “View Shopping Cart” button
+- Items/services sold by the client in a tabular format
+- An image, a brief description, and an “Add to Cart” button for each item
+
+The About Us page should include:
+- A description of the client, including the business hours
+- A form for client feedback and custom orders
+
+The custom page can include:
+- Customer testimonials
+- Community involvements
+- Events and collaborations
+
+
+Requirement 2
+-------------
+On the About Us page, connectivity to web storage will be used to process a web form for client feedback and custom order creation.
+
+
+Requirement 3
+-------------
+
+On the Gallery page, there will be a shopping cart with the following features:
+
+- An “Add to Cart” button at the bottom of each image will let the user add that item to the cart.
+- After the item is added to the cart, the user will receive a dialog message that says, “Item added.”
+- A “View Cart” button at the top left/right corner of the page will let the user view the currently added items in a modal window.
+- The “View Cart” modal window will have two buttons, one for “Clear Cart” and another for “Process Order.”
+- The “Clear Cart” button will clear the items in the cart, and the “Process Order” button will display a dialog message that says, “Thank you for your order.”
+
+
+3.1 Requirements
+
+Use the IDE to create an external CSS file. Your CSS file should meet the following specifications:
+
+- Use the IDE to include CSS styling on the webpages for your selected client.
+- Format and position different components using CSS styling. The majority of the styling should be incorporated using an external CSS file.
+- The component colors, font colors, and typography styling should be consistent with your choices in Task 1 and should be appropriate according to the client description provided in the Client Scenario and Criteria document.
+- Provide four legible screenshots for the four rendered webpages that demonstrate the CSS styling. If needed, you can include multiple screenshots for a webpage.
+- Include a brief description of the rationale for the CSS styling applied to each webpage.
+- Include an analysis of the accessibility practices followed on the website.
+- Include a rationale about how to adjust the website to be responsive for mobile platforms (RWD).
+- Inline and/or internal CSS styling can only be used when needed but should be minimal.
+
+
+3.1 Requirements
+
+Use the IDE to add dynamic features to the webpages using JavaScript. Your JavaScript features should meet the following specifications:
+
+- Add a functional alert window for the “Subscribe” feature in the footer of every webpage using JavaScript.
+- For the Gallery page, create alert windows for the “Add to Cart” feature, which includes adding an event handler for the “Add to Cart” button, “Clear Cart” button, and “Process Order” button.
+- For the About Us/Contact page, create a functional alert window for the web form.
+- The alert windows should be functional and work according to the click events.
+- The alert window for the “Subscribe” feature should display the message “Thank you for subscribing.”
+- The alert window for the “Add to Cart” feature should display the message “Item added to the cart” when an item is added to the cart.
+- The alert window for the “Clear Cart” feature should display the message “Cart cleared” when there is an item in the cart. If the cart is empty, then the message should be “No items to clear.”
+- The alert window for the “Process Order” feature should display the message “Thank you for your order” when there is an item in the cart. If the cart is empty, then the message should be “Cart is empty.”
+- The alert window for the About Us/Contact page should display the message “Thank you for your message” when the “Submit” button is pressed.
+
+
+3.2 Requirements
+
+Use the IDE to add sessionStorage features to add functionality to the “Shopping Cart” and “Custom Order” features.
+
+- You will use both localStorage and sessionStorage for your webpages.
+- The “View Cart” modal window should display the item information by reading data from sessionStorage.
+- The “Clear Cart” button and the “Process Order” button in the modal window should clear all the item information in sessionStorage.
+- The About Us/Contact page form should save the customer information and custom order information in localStorage.
