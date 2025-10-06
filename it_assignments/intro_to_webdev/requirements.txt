@@ -15,11 +15,11 @@ The footer should include
 - navigation links to other webpages
 
 The Homepage should include:
-- Client highlights
 - Shopping promos
-- Product/item images
 - Shopping perks
 - Categories of products
+- Product/item images
+- Client highlights
 
 The Gallery page should include:
 - A “View Shopping Cart” button
